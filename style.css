@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800');
 
 * {
 	box-sizing: border-box;
 }
 
 body {
-	background: #f6f5f7;
+	background:#1b2c3d;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	height: 100vh;
 	margin: -20px 0 50px;
 }
 
 h1 {
 	font-weight: bold;
-	margin: 0;
+	margin-bottom: 10px;
 }
 
 h2 {
-	text-align: center;
+    text-align: center;
 }
 
 p {
@@ -45,8 +45,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid #06526d;
+	background-color:#06526d;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -160,8 +160,8 @@ input {
 
 .overlay {
 	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: -webkit-linear-gradient(to right, #086788, #06526d);
+	background: linear-gradient(to right, #086788,#06526d);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
